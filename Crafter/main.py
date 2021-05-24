@@ -174,8 +174,7 @@ def save():
     else:
         saveas()
 
-# Slightly broken: cannot format text using formating bar after called
-# fix: i think to fix it you have to modify text not make a new Text called opentext
+# open existing file
 def openfile():
         global openfile_flag
         global current_path
